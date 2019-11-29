@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    tools:context=".phoneNumberAuth">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="8dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:contentPadding="8dp"
+        app:cardElevation="12dp">
+
+    <Spinner
+        android:id="@+id/CountryCode"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:text="+91" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="16dp"
+        app:cardElevation="12dp">
+
+    <EditText
+        android:id="@+id/phoneNoInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/phoneHint"
+        android:alpha="0.50"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress"
+        android:background="@null"
+        android:textSize="18sp" />
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/phoneBtn"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/phoneBtn"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_marginHorizontal="8dp"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:background="@color/BtnBackground" />
+
+</LinearLayout>

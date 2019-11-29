@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "346576939298",
+    "firebase_url": "https://citizen-feedback-system.firebaseio.com",
+    "project_id": "citizen-feedback-system",
+    "storage_bucket": "citizen-feedback-system.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:346576939298:android:7d91ce6f2cd99b28039d7b",
+        "android_client_info": {
+          "package_name": "com.ashandilya.citizenfeedbacksystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "346576939298-gogr3c2c14pb4u960dsbk0i24l06jmd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashandilya.citizenfeedbacksystem",
+            "certificate_hash": "d142821fb3ada4ff64e49029310122f011b43072"
+          }
+        },
+        {
+          "client_id": "346576939298-0f4rnsjhp8rhejer6pjm49hcgkuevvl1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDkLHuRkrSxON4rKyCbiB04l5bDklewQE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "346576939298-0f4rnsjhp8rhejer6pjm49hcgkuevvl1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

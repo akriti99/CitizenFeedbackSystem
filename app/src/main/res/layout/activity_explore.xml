@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/home_card_gradient_3"
+    tools:context=".explore">
+
+    <TextView
+        android:id="@+id/Surveys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:text="Recent submitted Feedbacks"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/explorecard1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="10dp"
+        android:layout_below="@id/Surveys"
+        android:layout_margin="12dp"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="4dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Survey from MHRD"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_below="@id/schemeCategory"
+                android:fontFamily="@font/poppins"
+                android:paddingHorizontal="12dp"
+                android:textColor="#303030"
+                android:text="This is suggestion for pradhan mantri kisan sampada yojana.This is just dummy data for showing suggestion."/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/explorecard2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="10dp"
+        android:layout_below="@id/explorecard1"
+        android:layout_margin="12dp"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="4dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Survey from Railways"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_below="@id/schemeCategory"
+                android:fontFamily="@font/poppins"
+                android:paddingHorizontal="12dp"
+                android:textColor="#303030"
+                android:text="This is suggestion for pradhan mantri kisan sampada yojana.This is just dummy data for showing suggestion."/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/explorecard3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="10dp"
+        android:layout_below="@id/explorecard2"
+        android:layout_margin="12dp"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:id="@+id/schemeNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="4dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Survey from Health"/>
+
+            <TextView
+                android:id="@+id/schemeDescTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_below="@id/schemeCategory"
+                android:fontFamily="@font/poppins"
+                android:paddingHorizontal="12dp"
+                android:textColor="#303030"
+                android:text="This is suggestion for pradhan mantri kisan sampada yojana.This is just dummy data for showing suggestion."/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/explorecard4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="10dp"
+        android:layout_below="@id/explorecard3"
+        android:layout_margin="12dp"
+        app:cardElevation="12dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:padding="4dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Survey from Automobiles"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_below="@id/schemeCategory"
+                android:fontFamily="@font/poppins"
+                android:paddingHorizontal="12dp"
+                android:textColor="#303030"
+                android:text="This is suggestion for pradhan mantri kisan sampada yojana.This is just dummy data for showing suggestion."/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

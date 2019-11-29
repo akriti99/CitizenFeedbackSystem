@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/home_card_gradient_4"
+    android:layout_height="match_parent"
+    tools:context=".All_feedback">
+
+    <TextView
+        android:id="@+id/recentFeedbacks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_margin="16dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:text="Recent submitted Feedbacks"/>
+
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentPadding="10dp"
+        android:layout_below="@id/recentFeedbacks"
+            android:layout_margin="6dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                        <TextView
+                            android:id="@+id/schemeNameTV1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:padding="4dp"
+                            android:fontFamily="@font/poppins"
+                            android:textColor="@color/black"
+                            android:text="Pradhan Mantri Kisan Sampada Yojana"/>
+
+                        <TextView
+                android:id="@+id/schemeCategory1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:layout_below="@id/schemeNameTV"
+               android:paddingHorizontal="16dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Feedback"/>
+
+                        <TextView
+                            android:id="@+id/schemeDescTV1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="12sp"
+                            android:layout_below="@id/schemeCategory"
+                            android:fontFamily="@font/poppins"
+                            android:paddingHorizontal="12dp"
+                            android:textColor="#303030"
+                            android:text="This is feedback for pradhan mantri kisan sampada yojana.This is just dummy data for showing feedback."/>
+
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_below="@id/schemeDescTV"
+                            android:layout_width="match_parent"
+                            android:src="@drawable/s1"
+                            android:layout_height="250dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentPadding="10dp"
+            android:layout_below="@id/card1"
+            android:layout_margin="12dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:id="@+id/schemeNameTV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="4dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:text="Pradhan Mantri Pension Yojana"/>
+
+                <TextView
+                    android:id="@+id/schemeCategory2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_below="@id/schemeNameTV"
+                    android:paddingHorizontal="16dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:text="Complaint"/>
+
+                <TextView
+                    android:id="@+id/schemeDescTV2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_below="@id/schemeCategory"
+                    android:fontFamily="@font/poppins"
+                    android:paddingHorizontal="12dp"
+                    android:textColor="#303030"
+                    android:text="This is complaint for pradhan mantri pension yojana.This is just dummy data for showing complaint."/>
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_below="@id/schemeDescTV"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/s2"
+                    android:layout_height="250dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:contentPadding="10dp"
+            android:layout_below="@id/card2"
+            android:layout_margin="12dp"
+            app:cardElevation="12dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:id="@+id/schemeNameTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20sp"
+                    android:padding="4dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:text="Ujawala Scheme"/>
+
+                <TextView
+                    android:id="@+id/schemeCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_below="@id/schemeNameTV"
+                    android:paddingHorizontal="16dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/black"
+                    android:text="Suggestion"/>
+
+                <TextView
+                    android:id="@+id/schemeDescTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:layout_below="@id/schemeCategory"
+                    android:fontFamily="@font/poppins"
+                    android:paddingHorizontal="12dp"
+                    android:textColor="#303030"
+                    android:text="This is suggestion for pradhan mantri kisan sampada yojana.This is just dummy data for showing suggestion."/>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_below="@id/schemeDescTV"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/s4"
+                    android:layout_height="250dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>
+</ScrollView>
