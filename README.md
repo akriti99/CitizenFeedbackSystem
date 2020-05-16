@@ -2,7 +2,7 @@
 Due to a lack of proper feedback system, Government departments are not able to measure the success of public service schemes. Engaging citizens to get critical feedback on public services can help governments improve service delivery and reduce petty corruption in the process. 
 
 
-![Image description](https://photos.google.com/photo/AF1QipPZ5GSHGtIb7EQsCQOOGjo2QWw5Qu9rkgbrXKWZ)
+![Image description](https://lh3.googleusercontent.com/9wwgeqBSSFUnb9wKXl2Z_hKXEo1qL0fIhe8_z3g2EF16rUUrJ2LY2xhB_Njlq8E0UEog9k3sGtpw3YVl9l2Ig-hEUHrk-0uTxtyB-TfAe0HzjxzxT9AIXO9dQnCtq8Gm7qiWlQtW4eH7Tx-qVA31jxfvi3g1hT8n31nxMmgKdyzxM9txPj1PxetiyTgSta0RNXLXMafxGmYXNN8sxdwJ15wNHe6BwvQCrVcwaVtbOvwbbj5hPM59OGiU-hpbZoKxbdcJ1Q4TDHM0VXmJs7UkavSUmK_Fu_vx77s6KSXxcjqU7Jo46Q_TwcAa2eQEXfe1g8YfMGzSBOyasGd6H9AI0xQyAzwfs8QsG43mOiXMFLRupt_eY0daXuKGdSRVEdvZS2IcD43DLr8mlbUJJvsg3uj1tuzerUiPrBWgHuFHqex3zC1s_hYFI5zvFoKx9sPm8ezmYe2eNzJTZLKa6ker6IjLknDryhN_PJ-HNZY85tHlR6nsDXqCotC7NWl87_fLsC4ywPV6MkBASY-s-_V8gIP8RLIsSb9_8FTqK5O0zc5alP2b3Y6rz2UtBV5VOwJE3O1jFXgatrq_m_nZuaEOXJD7e0zuvPqIBuRNhXjtrN5m3GL2y9GQxPfZqI1ezojlRjIYm-Qb1sZb8KX3thFCmAEcY2yHWkpmUWAabgmSe0ChQTzCCROmPbv9vNm8Dzo=w469-h663-no?authuser=0)
 ![Image description](https://photos.google.com/photo/AF1QipNIuM3wPs_oqfL13Z300mTtyOwg7Fqso50JKkrA)
 
 ![Image description](https://photos.google.com/photo/AF1QipMqDGwJyjpTvEQBatGzB2Kb-PflPKZoUef1R6hQ)
